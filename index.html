@@ -1,0 +1,16 @@
+<script src="jquery.min.js"></script>
+<script src="cake.js"></script>
+<script src="coffee.js"></script>
+<script type="text/coffeescript" src="test.coffee"></script>
+
+<script type="text/coffeescript" src="base.coffee"></script>
+<script type="text/coffeescript" src="prototype.coffee"></script>
+<script type="text/coffeescript" src="player.coffee"></script>
+<script type="text/coffeescript">
+
+  window.template = new Template.Prototype(600, 400, "#ccc", null, snippets)
+
+  window.player = new Player(template.CAKECanvas, template.length)
+  window.player.setup()
+</script>
+<title>abc</title>
